@@ -1,0 +1,33 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHRhcGF8ZW58MHx8fHwxNjYyMjY0NzY0&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed; /* Gambar latar belakang tata surya */
+        background-size: cover;
+    }
+    
+    .container {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .result {
+        margin-top: 20px;
+        font-size: 18px;
+        color: black;
+    }
+    
+    canvas {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    
+    
